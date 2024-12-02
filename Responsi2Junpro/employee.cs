@@ -12,6 +12,7 @@ namespace Responsi2Junpro
         private string departement;
         private string position;
 
+        //Enacapsulation menggunakan acces modifier private yang dapat diakses dengan getter dan setter
         public string Name
         {
             get { return name; }

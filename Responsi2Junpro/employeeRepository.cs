@@ -9,6 +9,7 @@ using Npgsql;
 
 namespace Responsi2Junpro
 {
+    // emplyoyeeRepository inheritance dari employee
     internal class employeeRepository : employee
     {
         private const string conn = "Host=localhost;Port=5432;Username=postgres;Password=informatika;Database=Responsi2Junpro"; 
@@ -243,7 +244,7 @@ namespace Responsi2Junpro
                             tbSalary.Text = string.Empty;
                             row = null;
 
-
+git
                             btnLoad.PerformClick();
                         }
                         else
