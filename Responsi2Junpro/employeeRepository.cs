@@ -244,7 +244,6 @@ namespace Responsi2Junpro
                             tbSalary.Text = string.Empty;
                             row = null;
 
-git
                             btnLoad.PerformClick();
                         }
                         else
